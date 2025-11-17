@@ -90,18 +90,21 @@ python rfm_customer_analysis.py
 
 ---
 
-## 🧭 Example Insights
+## 🧭 Insights From the Analysis
 
-These may differ based on the data:
+Champions are the largest customer group, indicating a strong core of high-value customers.
 
-- **Champions contribute the most revenue.**  
-- Many customers purchase **only once** (low frequency).  
-- A large portion of customers fall into **Lost / Hibernating** categories.  
-- Clear **seasonal spikes** around the holidays.  
-- Strong potential to re-engage **At Risk** customers.
+Lost customers form the second-largest segment, suggesting retention issues.
 
-Feel free to replace with insights from your results.
+At Risk customers are relatively few, but they have very high monetary value, meaning they are worth re-engaging.
 
+Potential Loyalists show high future value, with good spending but lower recency.
+
+Most customers purchase infrequently, as seen in the low-frequency scatter patterns.
+
+Recency distribution shows many customers haven’t purchased for over 200+ days, aligning with the high Lost segment.
+
+Champions strongly outperform all other groups in monetary value, confirming them as the main revenue drivers.
 ---
 
 ## 📜 License
@@ -110,6 +113,7 @@ This project is released under the **MIT License**.
 Dataset rights belong to UCI / Kaggle.
 
 ---
+
 
 
 
